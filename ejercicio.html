@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Script</title>
+<meta charset="UTF-8" >
+</head>
+<body>
+
+<h2>Literles como objetos</h2>
+
+<script type="text/javascript">
+  
+    var autos = {chevrolet:"chevy", ford:"fiesta",vw:"bora"};
+    var indefinida;
+    
+    var numeros = {uno:1,dos:2,tres:3,4:"cuatro",1:"uno"};
+  
+    document.write("<b> indefinida =></b> " + indefinida);
+    //document.write("<b> indefinida.ford =></b> " + indefinida.ford); error en tiempo de ejecución
+    document.write("<br><b> autos.ford =></b> " + autos.ford);
+    document.write("<br><b> autos['ford'] =></b> " + autos["ford"]);
+    document.write("<br><b> autos.honda =></b> " + autos.honda);
+    document.write("<br><b> autos['honda'] =></b> " + autos['honda']);
+    document.write("<br><b> autos.chevrolet =></b> " + autos.chevrolet);
+    document.write("<br><b> autos.vw =></b> " + autos.vw);
+    
+    
+    var numeros = {uno:1,dos:2,tres:3,4:"cuatro",1:"uno"};
+    
+    document.write("<br><b> numeros.uno =></b> " + numeros.uno);
+    document.write("<br><b> numeros[4] =></b> " + numeros[4]);
+    document.write("<br><b> numeros['4'] =></b> " + numeros['4']);
+    document.write("<br><b> numeros[&quot;4&quot;] =></b> " + numeros["4"]);
+    document.write("<br><b> numeros[1] =></b> " + numeros[1]);
+</script>
+</body>
+    
+</html>

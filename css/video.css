@@ -1,0 +1,102 @@
+@charset "utf-8";
+* {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+body {
+	background-color: #436587;
+	width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+header {
+	height: 45px;
+	background-color: #436587 ;
+	font-family: 'IM Fell English', serif;
+	font-size: 1.8em;
+	font-weight: bold;
+	color: #FFF;
+	padding-top: 20px;
+	border-bottom: solid;
+	border-bottom-width: 5px;
+	border-bottom-color: #FF6C6C;	
+}
+section {
+	height: auto;
+	font-family: Arial, serif;
+    text-align: left;
+	background-color: #F3F2F0;
+    padding: 20px;
+}
+section h1 {
+	font-family: 'IM Fell English', 'serif';
+	font-size: 1.8em;
+    color: #436587;
+    text-align: left;
+	padding-bottom: 15px;
+}
+section h2 {
+	color: #436587;
+	font-family: 'IM Fell English', 'serif';
+	font-size: 1.8em;
+	padding-top: 25px;
+	padding-bottom: 0px;
+    text-align: center;
+}
+section p {
+	font-family: Arial, sans-serif;
+	text-align: justify;
+}
+#art1 {
+	background-color: #5C5C5C;
+	padding: 20px;
+	margin-top: 20px;
+	color: #FFF;
+}
+#contenedor {
+	width: 560px;
+    height: 442px;
+    margin-top: 30px;
+    margin-left: 25%;
+    border-radius: 15px 15px 15px 15px;
+    background-color: #436587;
+    text-align: center;
+}
+#duke {
+	float: left;
+	width: 250px;
+	height: 230px;
+	border: solid;
+	border-color: #CCC;
+	border-width: 5px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+footer {
+	height: 30px;
+	background-color: #434A41;
+	border-top: solid;
+	border-top-width: 5px;
+	border-top-color: #FF6C6C;
+    padding-top: 4px;
+}
+video {
+	padding-top: 15px;
+}
+ol {
+    font-family: Arial, sans-serif;
+    margin-left: 320px;
+    margin-right: 220px;
+}
+ul {
+    font-family: Arial, sans-serif;
+    margin-left: 320px;
+    margin-right: 220px;
+}
+
+a {
+    font-family: cursive;
+    color: #CCC;
+}

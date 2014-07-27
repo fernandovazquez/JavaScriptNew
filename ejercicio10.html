@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+</head>
+<body> 
+<h3> Sentencia if/else </h3>
+
+<script type="text/javascript">
+
+   // Math.random() devuelve 
+   // número aleatorio entre 0 y 1.
+    var numero = Math.random();
+
+    if (numero <= 0.5){
+        document.writeln(numero + ' MENOR que 0,5');
+    }
+    else {
+        document.writeln(numero + ' MAYOR que 0,5');
+    }
+    
+    //Uso de la función prompt: despliega un cuadro de mensaje con una caja de texto que permite introcudir valores al usuario
+    var usrnum = prompt("Introduce un valor entre 1 y 10");
+    
+    // isNaN(..) determina si es un número
+    if (isNaN(usrnum) || usrnum === null || usrnum === "")
+    {
+        document.write(numero + 'valor no válido');
+    }else if (usrnum == 5){
+        document.writeln("<br>" + usrnum + ' es IGUAL que 5');
+        }else if (usrnum < 5){
+            document.writeln("<br>" + usrnum + ' es MENOR que 5');
+        }else {
+            document.writeln("<br>" + usrnum + ' es MAYOR que 5');
+        }
+</script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript">
+            
+            function cogerRes(frm) {
+                apellidos = frm.ape.value;
+                nombre = frm.nom.value;
+                direccion = frm.dire.value;
+                cadena = nombre + " " + apellidos + " " + direccion; 
+                alert(cadena);
+            }
+
+        </script>
+    </head>
+<body>
+
+<form>
+<input type="text" name="ape" />
+<input type="text" name="nom" />
+<input type="text" name="dire" />
+<input type="button" value="Enviar" formenctype="multipart/form-data" onclick="cogerRes(this.form)" />
+</form>
+
+<p><strong>Note:</strong> Nota: El atributo formenctype de la etiqueta de entrada no es compatible en Internet Explorer 9 y versiones anteriores.</p>
+
+</body>
+</html>
